@@ -10,11 +10,6 @@ body {
     margin-top: 100px;
 }
 
-.profileImage {
-    height: auto;
-    overflow: none;
-}
-
 .profileHeader {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -35,3 +30,18 @@ body {
 .caseStudyCard {
     margin-left: 40px;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    .caseStudyCard {
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .caseStudyCard {
+        margin-left: 10px;
+    }
+  }
