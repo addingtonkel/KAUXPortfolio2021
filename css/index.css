@@ -4,10 +4,21 @@ body {
 
 .portfolioNav {
     height: 100px;
+    padding: 0 40px;
 }
 
 .hero {
-    margin-top: 100px;
+    margin-top: 50px;
+    max-width: 700px;
+}
+
+.introduction {
+    padding: 20px;
+}
+
+.profileImage img {
+    max-width: 200px;
+    margin: 0 auto;
 }
 
 .profileHeader {
@@ -27,13 +38,32 @@ body {
     font-weight: 200;
 }
 
+.btn-primary {
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color:lightblue;
+    border: none;
+    max-width: 250px;
+}
+
+.caseStudies {
+    background-color: lightblue;
+}
+
+.caseStudyContainer {
+    padding: 100px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .caseStudyCard {
-    margin-left: 40px;
+    margin-bottom: 0;
+    margin: 20px;
 }
 
 /* Media Queries */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .caseStudyCard {
         margin-bottom: 40px;
         margin-left: 0;
@@ -44,4 +74,4 @@ body {
     .caseStudyCard {
         margin-left: 10px;
     }
-  }
+  } */
