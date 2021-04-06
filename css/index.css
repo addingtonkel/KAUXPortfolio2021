@@ -1,0 +1,38 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.portfolioNav {
+    height: 100px;
+}
+
+.hero {
+    margin-top: 100px;
+}
+
+.profileImage {
+    height: auto;
+    overflow: none;
+}
+
+.profileHeader {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profileHeader h3 {
+    font-size: medium;
+    font-weight: 700;
+}
+
+.profileHeader h4 {
+    font-size: small;
+    font-weight: 200;
+}
+
+.caseStudies {
+    height: auto;
+    overflow: none;
+}
