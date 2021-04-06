@@ -52,30 +52,22 @@ body {
 }
 
 .caseStudyContainer {
-    padding: 100px 50px;
-    max-width: 1200px;
+    padding: 20px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
 .caseStudyCard {
+    margin-top: 40px;
     margin-bottom: 0;
-    margin: 20px;
 }
 
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
-    .caseStudyContainer {
-        padding: 50px 0;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
+
   }
 
   @media only screen and (max-width: 992px) {
-    .caseStudyContainer {
-        padding: 50px 0;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
+
   }
