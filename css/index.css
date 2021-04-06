@@ -32,7 +32,6 @@ body {
     font-weight: 200;
 }
 
-.caseStudies {
-    height: auto;
-    overflow: none;
+.caseStudyCard {
+    margin-left: 40px;
 }
