@@ -13,7 +13,8 @@ body {
 }
 
 .introduction {
-    padding: 20px;
+    padding: 30px;
+
 }
 
 .profileImage img {
@@ -26,18 +27,22 @@ body {
 .profileHeader {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 
 .profileHeader h3 {
-    font-size: medium;
+    font-size: large;
     font-weight: 700;
 }
 
 .profileHeader h4 {
-    font-size: small;
+    font-size: medium;
     font-weight: 200;
+}
+
+p {
+    font-size: small;
 }
 
 .pdfDownload {
@@ -50,6 +55,7 @@ body {
     color: #aaaaaa;
     margin: 0 auto;
     font-size: small;
+    font-weight: 700;
 }
 
 .pdfDownload:hover {
@@ -60,12 +66,25 @@ a:hover {
     color: #ffffff;
 }
 
+.socialIcons {
+    margin-top: 20px;
+}
+
 .socialIcon {
     height: 40px;
+    text-decoration: none;
+}
+
+a {
+    color: white;
 }
 
 .socialIcon:hover {
-    box-shadow: blue;
+    
+}
+
+.resumeDownload {
+    margin-top: 20px;
 }
 
 .caseStudies {
@@ -79,7 +98,16 @@ a:hover {
 }
 
 .caseStudyCard {
-   margin-bottom: 30px;
+   margin-bottom: 25px;
+}
+
+.mySkills {
+    margin: 100px 0;
+}
+
+.footer {
+    background-color: #595959;
+    padding: 20px;
 }
 
 /* Media Queries */
