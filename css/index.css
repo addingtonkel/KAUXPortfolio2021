@@ -106,9 +106,14 @@ a {
 }
 
 .footer {
-    background-color: #595959;
-    padding: 20px;
+    background-color: #222222;
+    color: white;
 }
+
+.footerContent {
+    padding: 20px 200px 20px 200px;
+}
+
 
 /* Media Queries */
 
